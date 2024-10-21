@@ -1,0 +1,1 @@
+INSERT INTO datapasien (norm, nik, nama, tanggallahir, jeniskelamin, alamat, email) VALUES (123, '123321', 'otong', '2024-10-03', 'L', 'jalanjalan','siotong@siotong.com');

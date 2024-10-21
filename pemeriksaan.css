@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header {
+    background-color: #f4a7a3;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo img {
+    height: 50px;
+}
+.header .home {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.header .home i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+.header .home span {
+    font-size: 16px;
+}
+.container {
+    padding: 20px;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.info-box {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.info-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.info-box th, .info-box td {
+    padding: 5px;
+    text-align: left;
+}
+.info-box th {
+    font-weight: normal;
+}
+.info-box .button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+.info-bo td:first-child, td:first-child {
+    width: 150px;
+}
+
+.info-box td:nth-child(2),td:nth-child(2) {
+    width: 10px;
+}
+
+.info-box td:last-child, td:last-child {
+    width: 400px;
+}
+.info-box .button-container button {
+    background-color: #f4a7a3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.info-box .button-container button i {
+    margin-right: 5px;
+}
+.table-container {
+    margin-top: 20px;
+}
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-container th, .table-container td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}

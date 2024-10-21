@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #e89b9b;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 300px;
+    margin-left: 10px;
+}
+
+.header .home {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-right: 30px;
+}
+.header .home i {
+    margin-right: 5px;
+    color: #f0f0f0;
+}
+.container {
+    background-color: #d3d3d3;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+.container h1 {
+    background-color: #e89b9b;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+}
+.form-group {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 150px;
+    font-weight: bold;
+    color: #333;
+}
+.form-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group .small-input {
+    width: 80px;
+    margin-right: 10px;
+}
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.form-actions button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.form-actions .delete {
+    color: #333;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,118 @@
+/* CSS yang sudah ada */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    width: 100%;
+    overflow-x: hidden; /* Menghindari overflow horizontal */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F0AFA6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar header */
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 300px;
+    margin-left: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 30px; /* Atur jarak antar item menu di sini */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar main */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%; /* Gunakan 100% lebar container */
+    max-width: 1200px; /* Atur lebar maksimum jika diperlukan */
+    margin: 0 auto; /* Center secara horizontal */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar content */
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom dengan lebar yang sama */
+    grid-template-rows: repeat(2, auto);  /* 2 baris dengan tinggi otomatis */
+    gap: 10px; /* Jarak antara grid item */
+    padding: 10px; /* Padding di sekitar grid container */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar grid container */
+}
+.menu-button{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f0f0; /* Warna latar belakang item */
+    border: 1px solid #ccc; /* Border item */
+    border-radius: 5px; /* Radius border */
+    padding: 20px; /* Padding di dalam item */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar grid item */
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+    width: 100%; /* Menyesuaikan lebar button agar sesuai dengan grid item */
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar button */
+}
+.fa, .fa-solid, .fa-duotone{
+    margin-right: 10px;
+}
+
+
+.right-section {
+    display: flex;
+    margin-left: 100px;
+    justify-content: flex-start;
+    width: 100%; /* Pastikan elemen ini tidak melampaui lebar container */
+    max-width: 700px; /* Perbesar ukuran maksimum gambar */
+    transform: scale(1.2); /* Perbesar gambar */
+    transition: transform 0.3s ease; /* Tambahkan transisi untuk efek smooth */
+}
+
+.right-section img:hover {
+    transform: scale(1.1); /* Perbesar gambar lebih lanjut saat di-hover */
+}
